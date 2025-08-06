@@ -7,6 +7,8 @@ const titles = {
 }
 
 export default {
+  props: ['titles'],
+
   components: {
     ExpandBtn,
     Expandable,
@@ -22,8 +24,8 @@ export default {
     <p class="hint">Нажимайте на кнопки <ExpandBtn />, чтобы развернуть описания терминов, а также на <span class="expandable__text">подчеркнутые слова</span>, чтобы их свернуть</p>
     
     <section>
-      <p>Каталог показывает <Expandable>неспрятанные</Expandable> <Expandable>действительные</Expandable> категории.</p>
-      <p>В категориях находятся <Expandable>неспрятанные</Expandable> <Expandable title="titles.valid">действительные</Expandable> товары.</p>
+      <p>Каталог показывает <Expandable>неспрятанные</Expandable> <Expandable :title="titles.valid">действительные</Expandable> категории.</p>
+      <p>В категориях находятся <Expandable>неспрятанные</Expandable> <Expandable :title="titles.valid">действительные</Expandable> товары.</p>
     </section>
   </main>
 </template>
