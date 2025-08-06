@@ -1,0 +1,34 @@
+.expandable__space::after {
+  content: " ";
+}
+
+.expandable__text {
+  text-decoration: underline dotted;
+  cursor: pointer;
+}
+
+.expand-btn {
+  background-color: #6c757d;
+  border-radius: .2rem;
+  color: white;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: .7em;
+}
+.expand-btn:hover {
+  background-color: #9ca1a7;
+}
+.expand-btn:active {
+  opacity: .8;
+}
+.expand-btn__arrow {
+  position: relative;
+}
+.expand-btn__arrow--first {
+  left: 2px;
+}
+.expand-btn__arrow--second {
+  right: 2px;
+}

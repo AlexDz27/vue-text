@@ -1,0 +1,1 @@
+- не нравится <span class="expandable__text" в Expandable.vue, хочется типа <slot class="..."
