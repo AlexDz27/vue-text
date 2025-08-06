@@ -2,7 +2,6 @@
 @import 'grid.css';
 @import 'atoms.css';
 
-@import 'components/btn.css';
-@import 'components/header.css';
+@import 'heap.css';
+
 @import 'components/expandable.css';
-@import 'components/heap.css';

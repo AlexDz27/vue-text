@@ -36,3 +36,20 @@ select {
   font-size: .8em;
   padding: .35em;
 }
+
+.btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: inherit;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.header {
+  text-align: center;
+}
+
+.section__title {
+  font-size: 2rem;
+}

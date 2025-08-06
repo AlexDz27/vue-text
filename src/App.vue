@@ -18,12 +18,13 @@ export default {
 
 <template>
   <header class="header">
-    <h1>Глобальное техническое описание проекта</h1>
+    <h1>Описание того, что надо тестировать</h1>
   </header>
   <main class="main cont">
-    <p class="hint">Нажимайте на кнопки <ExpandBtn />, чтобы развернуть описания терминов, а также на <span class="expandable__text">подчеркнутые слова</span>, чтобы их свернуть</p>
-    
-    <section>
+    <section class="section">
+      <h2 class="section__title">Глобальное</h2>
+
+      <p>Сайт открывает все страницы, включая 404 страницу.</p>
       <p>Каталог показывает <Expandable>неспрятанные</Expandable> <Expandable :title="titles.valid">действительные</Expandable> категории.</p>
       <p>В категориях находятся <Expandable>неспрятанные</Expandable> <Expandable :title="titles.valid">действительные</Expandable> товары.</p>
     </section>
