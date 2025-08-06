@@ -24,7 +24,7 @@ export default {
 <template>
   <ExpandBtn v-if="!isExpanded" @click="toggle" />
   <span class="expandable__space"></span>
-  <span @click="toggle" :title="title" class="expandable__text">
+  <span @click="toggle" :title="title" class="text-w-description">
     <slot v-if="isExpanded" />
   </span>
 </template>

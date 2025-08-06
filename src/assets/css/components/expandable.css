@@ -2,11 +2,6 @@
   content: " ";
 }
 
-.expandable__text {
-  text-decoration: underline dotted;
-  cursor: pointer;
-}
-
 .expand-btn {
   background-color: #6c757d;
   border-radius: .2rem;
